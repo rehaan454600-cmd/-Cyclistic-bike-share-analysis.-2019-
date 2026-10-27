@@ -1,0 +1,13 @@
+user_type,ride_duration,rides
+Casual,"<5 min",18514
+Casual,"10-20 min",218446
+Casual,"20-30 min",197500
+Casual,"30-60 min",215869
+Casual,"5-10 min",84717
+Casual,"60 min +",144237
+Member,"<5 min",504290
+Member,"10-20 min",947368
+Member,"20-30 min",322549
+Member,"30-60 min",155764
+Member,"5-10 min",995144
+Member,"60 min +",11744

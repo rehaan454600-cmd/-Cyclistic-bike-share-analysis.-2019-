@@ -1,0 +1,31 @@
+user_type,from_station_name,rides,rnk
+Casual,"Streeter Dr & Grand Ave",53071,1
+Casual,"Lake Shore Dr & Monroe St",39209,2
+Casual,"Millennium Park",21728,3
+Casual,"Michigan Ave & Oak St",21370,4
+Casual,"Shedd Aquarium",20609,5
+Casual,"Lake Shore Dr & North Blvd",18932,6
+Casual,"Theater on the Lake",15015,7
+Casual,"Dusable Harbor",12536,8
+Casual,"Michigan Ave & Washington St",12219,9
+Casual,"Adler Planetarium",11924,10
+Casual,"Michigan Ave & 8th St",9517,11
+Casual,"Montrose Harbor",8179,12
+Casual,"Indiana Ave & Roosevelt Rd",8016,13
+Casual,"Columbus Dr & Randolph St",7811,14
+Casual,"Field Museum",7648,15
+Member,"Canal St & Adams St",50569,1
+Member,"Clinton St & Madison St",45986,2
+Member,"Clinton St & Washington Blvd",45375,3
+Member,"Columbus Dr & Randolph St",31369,4
+Member,"Franklin St & Monroe St",30828,5
+Member,"Kingsbury St & Kinzie St",30650,6
+Member,"Daley Center Plaza",30420,7
+Member,"Canal St & Madison St",27135,8
+Member,"Michigan Ave & Washington St",25465,9
+Member,"LaSalle St & Jackson Blvd",23020,10
+Member,"Clinton St & Lake St",21565,11
+Member,"Clark St & Elm St",21480,12
+Member,"Orleans St & Merchandise Mart Plaza",21350,13
+Member,"Wells St & Huron St",21139,14
+Member,"Larrabee St & Kingsbury St",20904,15

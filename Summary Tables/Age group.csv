@@ -1,0 +1,11 @@
+user_type,age_group,rides
+Casual,<25,88935
+Casual,25-34,172432
+Casual,35-44,48303
+Casual,45-54,25301
+Casual,55+,12795
+Member,<25,268906
+Member,25-34,1472566
+Member,35-44,622456
+Member,45-54,321890
+Member,55+,243614

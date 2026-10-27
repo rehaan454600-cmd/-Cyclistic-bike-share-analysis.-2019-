@@ -1,0 +1,9 @@
+user_type,quarter_label,rides,avg_ride_min
+Casual,Q1,23095,35.3
+Member,Q1,341782,11.3
+Casual,Q2,259242,40.9
+Member,Q2,848459,13.4
+Casual,Q3,491045,39.7
+Member,Q3,1148860,13.8
+Casual,Q4,105901,35.5
+Member,Q4,597758,11.5

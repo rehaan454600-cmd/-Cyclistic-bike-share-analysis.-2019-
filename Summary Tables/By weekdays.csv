@@ -1,0 +1,15 @@
+user_type,weekday_num,weekday_name,rides,avg_ride_min
+Casual,1,Sunday,169935,41.3
+Casual,2,Monday,101355,39.3
+Casual,3,Tuesday,88495,37.6
+Casual,4,Wednesday,89601,36.7
+Casual,5,Thursday,101203,37.4
+Casual,6,Friday,120934,38.3
+Casual,7,Saturday,207760,41.5
+Member,1,Sunday,256184,14.2
+Member,2,Monday,458714,12.6
+Member,3,Tuesday,496951,12.6
+Member,4,Wednesday,494205,12.6
+Member,5,Thursday,486837,12.6
+Member,6,Friday,456890,12.5
+Member,7,Saturday,287078,14.5
