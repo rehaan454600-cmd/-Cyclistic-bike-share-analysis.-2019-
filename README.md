@@ -4,7 +4,7 @@
 ## Data
 - Divvy 2019 trip data, Q1 to Q4 (public data made available by Motivate International Inc.; the company name Cyclistic is fictional)
 - 3,818,004 rides in total
-- Raw files are not included in this report because of their size. Download them from the official Divvy trip data source. <a href="https://divvy-tripdata.s3.amazonaws.com/index.html"> Raw Dataset (Analysis uses the data from all the quarters of 2019)
+- Raw files are not included in this report because of their size. Download them from the official Divvy trip data source. <a href="https://divvy-tripdata.s3.amazonaws.com/index.html"> Raw Dataset (Analysis uses the data from all the quarters from 2019)
 
 ## Tools
 - MySQL (import, cleaning, summary queries)
