@@ -175,7 +175,7 @@ Built the charts and dashboard in Tableau.
 
 ### 6. Present:
 built a PowerPoint deck that walks through the objective, analysis, and recommendations for the Cyclistic executive team:
-<a href="https://github.com/rehaan454600-cmd/Cyclistic_bike_share_analysis.2019/blob/main/Cyclistic%20users%2C%202019.pdf"> Cyclistic users, 2019
+<a href="https://github.com/rehaan454600-cmd/Cyclistic_bike_share_analysis.2019/blob/main/Cyclistic%20users%2C%202019.pdf">[View the presentation] Cyclistic users, 2019
 
 ## Key findings
 - Members take 77% of rides, but casual riders account for about 48% of total ride time.
