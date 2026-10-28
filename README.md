@@ -17,7 +17,7 @@
 
 ## Process
 ### 1. Import:
-loaded the four quarterly CSVs into MySQL (`LOAD DATA LOCAL INFILE`), standardizing column names across quarters.
+Loaded the four quarterly CSVs into MySQL (`LOAD DATA LOCAL INFILE`), standardizing column names across quarters.
 #### SQL Code:
 ```sql
 --Creates the tables for Q1, Q2, Q3, Q3
@@ -57,12 +57,12 @@ SET tripduration = REPLACE(@td, ',', ''),
     birthyear    = NULLIF(@by, '');
 ```    
 ### 2. Clean:
-renamed `Subscriber` to `Member` and `Customer` to `Casual`, stored blank gender and birth year values as NULL, calculated ride length and weekday, and merged all `4 tables into one` for analysis.
+Renamed `Subscriber` to `Member` and `Customer` to `Casual`, stored blank gender and birth year values as NULL, calculated ride length and weekday, and merged all `4 tables into one` for analysis.
 #### SQL Code:
 ```sql
 USE divvy_trips_2019;
 
-CREATE TABLE trips_2019 AS
+CREATE TABLE trips_summary AS
 SELECT
   trip_id,
   start_time,
@@ -91,7 +91,7 @@ FROM (
 ) AS all_trips;
 ```
 ### 3. Filter:
-excluded 13 rides with negative duration and 1,849 rides longer than 24 hours (likely errors or unreturned bikes). 3,816,142 rides were used in the analysis.
+Excluded 13 rides with negative duration and 1,849 rides longer than 24 hours (likely errors or unreturned bikes). 3,816,142 rides were used in the analysis.
 #### SQL Code:
 ```sql
 SELECT
@@ -224,10 +224,17 @@ SELECT user_type, count(IF(gender="Male", 1, NULL)) as male, count(IF(gender="Fe
 FROM divvy_trips_2019.trips_summary
 GROUP BY user_type;
 ```
-<a href=
-
+<a href="https://github.com/rehaan454600-cmd/Cyclistic_bike_share_analysis.2019/tree/main/Summary%20Tables"> Tables which were created from the above SQL code.
 
 ### 5. Visualize:
-built the charts and dashboard in Tableau.
+Built the charts and dashboard in Tableau.
+
+<img width="1920" height="1046" alt="Dashboard" src="https://github.com/user-attachments/assets/6b0a37f6-3c7c-4b01-9bee-3793ce701145" />
+
+### 6. Present:
+built a PowerPoint deck that walks through the objective, analysis, and recommendations for the Cyclistic executive team: <a href="
+
+
+
 
 
