@@ -105,6 +105,7 @@ LIMIT 10;
 
 ### 4. Analysis:
 Analyzed 3.8M rides with SQL to compare member and casual rider behavior across time, duration, location, and demographics.
+#### SQL Code:
 ```sql
 --This code gives average_ride_min, total_ride_hours and percentage of Casial and Members 
 SELECT user_type,
