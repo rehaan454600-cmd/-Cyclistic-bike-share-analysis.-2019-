@@ -232,10 +232,26 @@ Built the charts and dashboard in Tableau.
 <img width="1920" height="1046" alt="Dashboard" src="https://github.com/user-attachments/assets/6b0a37f6-3c7c-4b01-9bee-3793ce701145" />
 
 ### 6. Present:
-built a PowerPoint deck that walks through the objective, analysis, and recommendations for the Cyclistic executive team: 
+built a PowerPoint deck that walks through the objective, analysis, and recommendations for the Cyclistic executive team:
+<a href="https://github.com/rehaan454600-cmd/Cyclistic_bike_share_analysis.2019/blob/main/Cyclistic%20users%2C%202019.pdf"> Cyclistic users, 2019
 
+## Key findings
+- Members take 77% of rides, but casual riders account for about 48% of total ride time.
+- Casual rides are about 3 times longer on average (39.4 min vs. 12.9 min). 41% of casual rides last over 30 minutes, vs. about 6% for members.
+- Members ride mostly on weekdays, with peaks around 8 AM and 5 PM (commuting). Casual riders peak on weekends, from noon to 5 PM.
+- Casual riding is highly seasonal: 56% of casual rides happen from June to August.
+- Casual riders start mostly from lakefront and tourist areas (such as Streeter Dr & Grand Ave and Millennium Park). Members start mostly from downtown business areas.
+- Among riders with recorded data, casual riders skew younger (26% under 25, vs. 9% of members) and include a larger share of women (38% vs. 25%).
 
+## Recommendations
+1. Market Cyclistic as an everyday transportation option, highlighting commuting and errands to casual riders who mostly ride for leisure.
+2. Focus campaigns and events on the spring and summer months and on the top 15 casual-ride start stations, without ignoring other seasons and stations.
+3. Pilot events for riders under 35: some member-only (group rides, races, meetups) and some free for everyone, so casual riders can see what a membership offers. Track sign-ups after each event.
 
+## Limitations
+- The data counts rides, not riders. There are no rider IDs, so one person with many rides counts many times.
+- Age is recorded for only about 40% of casual rides, and gender for about 39%, so those findings describe a partial sample.
+- The data is from 2019 and has no pricing, bike type, or trip purpose information.
 
 
 
