@@ -165,8 +165,8 @@ GROUP BY user_type, age_group
 ORDER BY user_type, age_group;
 
 ```
-<a href="https://github.com/rehaan454600-cmd/Cyclistic_bike_share_analysis.2019/tree/main/Summary%20Tables"> View the tables,
-
+<a href="https://github.com/rehaan454600-cmd/Cyclistic_bike_share_analysis.2019/tree/main/Summary%20Tables">View the tables,
+<a href="https://github.com/rehaan454600-cmd/Cyclistic_bike_share_analysis.2019/tree/main/SQL%20code"> View all SQL code
 
 ### 5. Visualize:
 Built the charts and dashboard in Tableau.
