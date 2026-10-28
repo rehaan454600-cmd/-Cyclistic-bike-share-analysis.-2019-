@@ -224,7 +224,10 @@ SELECT user_type, count(IF(gender="Male", 1, NULL)) as male, count(IF(gender="Fe
 FROM divvy_trips_2019.trips_summary
 GROUP BY user_type;
 ```
+<a href=
 
 
 ### 5. Visualize:
 built the charts and dashboard in Tableau.
+
+
