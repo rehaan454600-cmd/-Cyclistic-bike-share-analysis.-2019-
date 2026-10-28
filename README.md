@@ -20,7 +20,7 @@
 Loaded the four quarterly CSVs into MySQL (`LOAD DATA LOCAL INFILE`), standardizing column names across quarters.
 #### SQL Code:
 ```sql
---Creates the tables for Q1, Q2, Q3, Q3
+--Creates the tables for Q1, Q2, Q3, Q4
 CREATE SCHEMA IF NOT EXISTS divvy_trips_2019;
 USE divvy_trips_2019;
 
