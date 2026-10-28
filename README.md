@@ -232,7 +232,7 @@ Built the charts and dashboard in Tableau.
 <img width="1920" height="1046" alt="Dashboard" src="https://github.com/user-attachments/assets/6b0a37f6-3c7c-4b01-9bee-3793ce701145" />
 
 ### 6. Present:
-built a PowerPoint deck that walks through the objective, analysis, and recommendations for the Cyclistic executive team: [Cyclistic users, 2019.pdf](https://github.com/user-attachments/files/34073812/Cyclistic.users.2019.pdf)
+built a PowerPoint deck that walks through the objective, analysis, and recommendations for the Cyclistic executive team: 
 
 
 
