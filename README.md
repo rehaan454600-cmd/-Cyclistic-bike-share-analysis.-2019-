@@ -118,27 +118,6 @@ GROUP BY user_type;
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
---This gives the average time for rides in weekdays
-SELECT user_type, weekday_num, weekday_name,
-       COUNT(*) AS rides,
-       ROUND(AVG(ride_length_min), 1) AS avg_ride_min
-FROM divvy_trips_2019.trips_summary
-GROUP BY user_type, weekday_num, weekday_name
-ORDER BY user_type, weekday_num;
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
---This code is the same but for month
-SELECT user_type, month_num, month_name,
-       COUNT(*) AS rides,
-       ROUND(AVG(ride_length_min), 1) AS avg_ride_min
-FROM divvy_trips_2019.trips_summary
-GROUP BY user_type, month_num, month_name
-ORDER BY user_type, month_num;
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 --This code returns the average value of ride length and number of rides in that hour 
 SELECT user_type, start_hour,
        COUNT(*) AS rides,
@@ -146,30 +125,6 @@ SELECT user_type, start_hour,
 FROM divvy_trips_2019.trips_summary
 GROUP BY user_type, start_hour
 ORDER BY user_type, start_hour;
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
---This is the same result from the last code but for heat map
-SELECT user_type, weekday_num, weekday_name, start_hour, COUNT(*) AS rides
-FROM divvy_trips_2019.trips_summary
-GROUP BY user_type, weekday_num, weekday_name, start_hour
-ORDER BY user_type, weekday_num, start_hour;
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
---This lines of code makes it easy to classify number of ride and there duration 
-SELECT user_type,
-       CASE WHEN ride_length_min < 5  THEN '<5 min'
-            WHEN ride_length_min < 10 THEN '5-10 min'
-            WHEN ride_length_min < 20 THEN '10-20 min'
-            WHEN ride_length_min < 30 THEN '20-30 min'
-            WHEN ride_length_min < 60 THEN '30-60 min'
-            ELSE '60 min +' END AS ride_duration,
-       COUNT(*) AS rides
-FROM divvy_trips_2019.trips_summary
-GROUP BY user_type, ride_duration
-ORDER BY user_type, ride_duration;
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -209,22 +164,9 @@ WHERE birthyear BETWEEN 1939 AND 2003
 GROUP BY user_type, age_group
 ORDER BY user_type, age_group;
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
---This code gives the total number of ride for each user type for the whole year
-SELECT user_type, month_num, month_name, COUNT(*) AS rides
-FROM divvy_trips_2019.trips_summary
-GROUP BY user_type, month_num, month_name
-ORDER BY user_type, month_num;
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
---This code gives us the genders for each type of users
-SELECT user_type, count(IF(gender="Male", 1, NULL)) as male, count(IF(gender="Female", 1, NULL)) AS female
-FROM divvy_trips_2019.trips_summary
-GROUP BY user_type;
 ```
-<a href="https://github.com/rehaan454600-cmd/Cyclistic_bike_share_analysis.2019/tree/main/Summary%20Tables"> Tables which were created from the above SQL code.
+<a href="https://github.com/rehaan454600-cmd/Cyclistic_bike_share_analysis.2019/tree/main/Summary%20Tables"> View the tables,
+
 
 ### 5. Visualize:
 Built the charts and dashboard in Tableau.
